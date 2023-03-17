@@ -5,8 +5,8 @@ function List(props) {
   return (
     <div className="box">
       <ul>
-        {props.items.map((item, index) => (
-          <li key={index}>{item}</li>
+        {props.items.map((item, todos) => (
+          <li key={todos}>{item.title}</li>
         ))}
       </ul>
     </div>

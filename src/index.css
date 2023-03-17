@@ -97,3 +97,30 @@ body {
   cursor: default;
   overflow: hidden;
 }
+
+.btn-delete {
+  display: flex;
+  padding: 6px 10px;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+  margin-left: 5px;
+  background: #8E49E8;
+  cursor: pointer;
+  user-select: none;
+  opacity: 0.6;
+  pointer-events: auto;
+  transition: all 0.3s ease;
+}
+
+.btn-delete:hover {
+  background: #721ce3;
+}
+
+.btn-delete.active {
+  opacity: 1;
+  pointer-events: auto;
+}
